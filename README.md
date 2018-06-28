@@ -1,9 +1,14 @@
-Classic arcade game
+The arcade game
 ===============================
 
-This is a classic arcade game project, the rules are the following:
+This project is a part of Udacity front-end Nano-degree.
 
-The player needs to reach the water at least one time and keep a score of at least 50 points.
- The bugs that cross the screen are to be avoided , if a collision happens the player loses 10 points, and if he collects a gem he gains 10 points.
+The project aims to use the JS classes and O.O.P
 
-To play this game you can use this link [here](http://htmlpreview.github.io/?https://github.com/Nadia111/classicarcade/blob/master/index.html).
+*How to Play*
+the player should reach the water without hitting the bugs,
+use the arrow keys to move .
+collecting the gems will earn you more points.
+
+
+The online version can be found [here](https://maherabedah.github.io/Arcade-Game-clone/).
