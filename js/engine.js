@@ -26,7 +26,8 @@ var Engine = (function(global) {
 
     canvas.width = 505;
     canvas.height = 606;
-    doc.body.appendChild(canvas);
+    doc.getElementById('canvas').appendChild(canvas);
+    
 
     /* This function serves as the kickoff point for the game loop itself
      * and handles properly calling the update and render methods.
@@ -94,6 +95,8 @@ var Engine = (function(global) {
             enemy.update(dt);
         });
         player.update();
+        gem.update(dt);
+        winner.popup();
     }
 
     /* This function initially draws the "game level", it will then call
@@ -154,6 +157,7 @@ var Engine = (function(global) {
         });
 
         player.render();
+        gem.render();
     }
 
     /* This function does nothing but it could have been a good place to
@@ -173,7 +177,10 @@ var Engine = (function(global) {
         'images/water-block.png',
         'images/grass-block.png',
         'images/enemy-bug.png',
-        'images/char-boy.png'
+        'images/char-horn-girl.png',
+        'images/Gem Blue.png', 
+        'images/Gem Green.png', 
+        'images/Gem Orange.png'
     ]);
     Resources.onReady(init);
 

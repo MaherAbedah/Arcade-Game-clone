@@ -1,3 +1,76 @@
 body {
     text-align: center;
+    background: lightblue url("https://wallpaperbrowse.com/media/images/704532.jpg") no-repeat fixed center;
+    position: relative;
+}
+
+#results {
+    width : 505px;
+    height : 70px;
+    background-color: #d5cabe;
+    border-radius: 5px 5px ;
+    margin-top: 40px ;
+    margin-bottom: -30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1em;
+}
+
+.transparent {
+    visibility: visible;
+    opacity: 0.7;
+    cursor: pointer;
+    z-index: -1;
+}
+
+#wrapper {
+    display: flex;
+    min-width: 100%;
+    margin-top: -606px;
+}
+
+#modal {
+    min-width: 700px;
+    height: 620px;
+    background-color: #e5ee55;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;
+    z-index: 1;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#congrats {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5em;
+    font-weight: 1000;
+}
+
+button {
+    width: 180px;
+    height: 60px;
+    background-color: #42a5bc;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1em;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.hide {
+    display: none;
+
+}
+
+.show {
+    visibility: visible;
+
+
+}
+
+#canvas {
+    z-index: -1;
+    position: relative;
 }

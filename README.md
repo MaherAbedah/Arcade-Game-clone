@@ -1,6 +1,9 @@
-frontend-nanodegree-arcade-game
+Classic arcade game
 ===============================
 
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
+This is a classic arcade game project, the rules are the following:
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+The player needs to reach the water at least one time and keep a score of at least 50 points.
+ The bugs that cross the screen are to be avoided , if a collision happens the player loses 10 points, and if he collects a gem he gains 10 points.
+
+To play this game you can use this link [here](http://htmlpreview.github.io/?https://github.com/Nadia111/classicarcade/blob/master/index.html).

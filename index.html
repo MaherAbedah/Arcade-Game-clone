@@ -1,14 +1,37 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <title>Effective JavaScript: Frogger</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-	<canvas id="canvas"></canvas>
-    <script src="js/resources.js"></script>
-    <script src="js/app.js"></script>
-    <script src="js/engine.js"></script>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <title>Effective JavaScript: Frogger</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Roboto" rel="stylesheet">
+    </head>
+    <body>
+        <div id = "container" class="transparent">
+            <div id = "results">
+                <div id = "points"></div>
+                <br>
+                <div id = "destination"></div>   
+
+            </div>
+
+            <div id = "canvas"></div>
+
+        </div>
+        <div id="wrapper">
+           
+            <div id="modal" class="show">
+                
+                <p id = 'congrats'>Congratulations! You won!</p>
+                <p>You reached the water <span id="score_destination"></span> times</p>
+                <p> your score is: <span id="score"></span> points</p>
+                <button type="button" id="button">Start Again!</button>
+            </div>
+            
+        </div>
+        <script src="js/resources.js"></script>
+        <script src="js/app.js"></script>
+        <script src="js/engine.js"></script>
+
+    </body>
 </html>
